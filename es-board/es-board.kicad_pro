@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.5,
+          "height": 0.8,
+          "width": 0.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -64,6 +64,11 @@
         "hole_clearance|128500000|71605000|2f9a5931-46ae-4ff4-bdf7-b041c5044d52|ff482bbb-407e-4ffc-9a19-efdf878839c5",
         "hole_clearance|128700000|71605000|2f9a5931-46ae-4ff4-bdf7-b041c5044d52|4e8fd4ab-0c51-43b9-bee6-346ab787b77d",
         "hole_clearance|128700000|71605000|2f9a5931-46ae-4ff4-bdf7-b041c5044d52|ae794cfe-7bc7-4403-aeff-82dc833c5126",
+        "lib_footprint_mismatch|135275000|83575000|3ee34ac1-c79f-4445-bd21-9f99577f90de|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|140700000|90450000|85fc7000-dd9a-48a2-a4e2-346f9935adc4|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|121330000|64849648|d2c172ad-ac06-4c9f-868e-c1c5fcb4670f|a0a31098-7b53-439f-84ed-f29a8d399b17",
+        "silk_edge_clearance|130270000|64835000|d2c172ad-ac06-4c9f-868e-c1c5fcb4670f|744226b4-2a54-407c-ad0c-92162fe98180",
+        "silk_edge_clearance|130270000|64849648|d2c172ad-ac06-4c9f-868e-c1c5fcb4670f|6c2f095f-71e1-4303-a26e-ea8c9b61b16b",
         "unconnected_items|121480000|67435000|0ef7fd67-c785-496e-a41b-10b6e5ae795a|323be5e5-7966-4814-a5bc-ff6aee37c15a",
         "unconnected_items|130120000|67435000|a427fd3a-f97f-47f0-8c38-99af0c9b6e67|0ef7fd67-c785-496e-a41b-10b6e5ae795a",
         "unconnected_items|130120000|71605000|1d427029-529c-44d9-8b1e-fe5369dea422|a427fd3a-f97f-47f0-8c38-99af0c9b6e67"
@@ -108,7 +113,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "warning",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
