@@ -32,7 +32,7 @@
   (setup
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x003ffff_ffffffff)
+      (layerselection 0x00010fc_ffffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions false)
@@ -59,11 +59,11 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 4)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../../../plot/")
+      (outputdirectory "grb")
     )
   )
 
@@ -260,11 +260,11 @@
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS")
+    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp b2cc3794-a7fc-4ff0-9e02-780a93dda819)
     )
-    (fp_text value "MountingHole_3.2mm_M3_Pad_Via" (at 0 4.2) (layer "F.Fab")
+    (fp_text value "MountingHole_3.2mm_M3_Pad_Via" (at 0 4.2) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 26a816b7-ffea-46c8-b7d5-df1002e237cc)
     )
@@ -410,11 +410,11 @@
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS")
+    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp f043558a-2a03-450c-b469-636b146d4a0a)
     )
-    (fp_text value "MountingHole_3.2mm_M3_Pad_Via" (at 0 4.2) (layer "F.Fab")
+    (fp_text value "MountingHole_3.2mm_M3_Pad_Via" (at 0 4.2) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 346994ac-ab18-43ac-bf2a-3b1f5168a651)
     )
@@ -560,15 +560,15 @@
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS")
+    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp 9b78ee6b-60b9-47a5-a42b-b28410f00d9d)
     )
-    (fp_text value "MountingHole_3.2mm_M3_Pad_Via" (at 0 4.2) (layer "F.Fab")
+    (fp_text value "MountingHole_3.2mm_M3_Pad_Via" (at 0 4.2) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bd2e4844-f5ea-44c2-bb6b-d687b4a258a8)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 515c0cf4-530e-485d-a72d-391c7ac727d8)
     )
@@ -602,11 +602,11 @@
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS")
+    (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp 58c2c6d0-c5e0-4ef0-9335-ed6d8d353211)
     )
-    (fp_text value "MountingHole_3.2mm_M3_Pad_Via" (at 0 4.2) (layer "F.Fab")
+    (fp_text value "MountingHole_3.2mm_M3_Pad_Via" (at 0 4.2) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5285a061-297a-44b6-bfcc-6360f07a0b28)
     )
@@ -2197,9 +2197,9 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 2f86deff-5471-4614-8bf4-6948327abfaa))
     (fp_line (start 1.6 0.8) (end 1.6 -0.8)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp a4b3770b-20e4-44dd-802f-b00f50f60112))
-    (pad "1" smd roundrect (at -1.4625 0 270) (size 1.125 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.222222)
+    (pad "1" smd roundrect (at -1.4625 0 270) (size 1.125 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2222222222)
       (net 70 "Net-(U2-PD0)") (pintype "passive") (tstamp c1a5fa0b-7d66-4603-b8a7-030484e885a7))
-    (pad "2" smd roundrect (at 1.4625 0 270) (size 1.125 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.222222)
+    (pad "2" smd roundrect (at 1.4625 0 270) (size 1.125 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2222222222)
       (net 67 "scl") (pintype "passive") (tstamp d2b982a0-8b71-429f-b32b-69c0573deefb))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2779,9 +2779,9 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 13373056-6f66-42eb-be25-ef7d90d21097))
     (fp_line (start 1.6 0.8) (end 1.6 -0.8)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp a85fb72e-040e-47ef-935a-937409f11c00))
-    (pad "1" smd roundrect (at -1.4625 0 270) (size 1.125 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.222222)
+    (pad "1" smd roundrect (at -1.4625 0 270) (size 1.125 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2222222222)
       (net 71 "Net-(U2-PD1)") (pintype "passive") (tstamp 1f2b54d9-195d-4e71-a338-ea01f3f71bce))
-    (pad "2" smd roundrect (at 1.4625 0 270) (size 1.125 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.222222)
+    (pad "2" smd roundrect (at 1.4625 0 270) (size 1.125 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2222222222)
       (net 68 "sda") (pintype "passive") (tstamp 74949a9f-87af-448c-8245-fe55b45f428a))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
