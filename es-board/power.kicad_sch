@@ -6,8 +6,8 @@
 
   (title_block
     (title "ExploSnake")
-    (date "2023-10-19")
-    (rev "r1")
+    (date "2023-11-15")
+    (rev "r1.0")
     (company "Team 2")
   )
 
@@ -2582,7 +2582,7 @@
     (property "DPN" "1276-6736-1-ND" (at 270.51 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CAP CER 10UF 50V X5R 1206" (at 270.51 67.31 0)
+    (property "MPN" "CL31A106MBHNNNE" (at 270.51 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b0afa853-a743-451c-b3b5-7065ec0f99c6))
@@ -3201,7 +3201,7 @@
     (property "DPN" "1276-6736-1-ND" (at 162.56 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CAP CER 10UF 50V X5R 1206" (at 162.56 66.04 0)
+    (property "MPN" "CL31A106MBHNNNE" (at 162.56 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid da14e700-1c97-4e36-89c4-b93720a7ab5b))
