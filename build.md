@@ -1,6 +1,6 @@
 # ExploSnake Build Instructions
 
-Test points:
+### Test points:
 | Net        | Location                 |
 |------------|--------------------------|
 | 5v         | Pin 2 (lower left) of J1 |
@@ -9,6 +9,11 @@ Test points:
 | VBUS_FUSED | The left pad of F1       |
 | VBUS       | Pin 1 (far left) of J2   |
 | GND        | Pin 1 (right) of J2      |
+
+### Component locations
+See the interactive BOM for component locations. Assemble in the order listed below, not the order on the ibom.
+Additionally note that not all components on the ibom will be populated.
+[https://orangeben.dev/bom/explosnake.html](https://orangeben.dev/bom/explosnake.html)
 
 ## Step 1 - Assemble the PCB
 1. Generate the iBOM and open it
@@ -19,6 +24,7 @@ Test points:
     1. Wash the board with soap and water, dry it. Try not to touch component locations after this (although its not a big problem if you do)
     1. OPTIONAL: Wash the board with IPA.
 1. Install U1 by reflow if possible or by hand
+1. Install Y1 by reflow if possible or by hand if you do not plan to ultrasonic the board later
 1. Install all R,C
 1. Install D1-4 (Pin 1 is the end with less gold on it)
 1. Use a DMM to confirm that VBUS_RAW, VBUS_FUSED are not shorted to ground or anything else nearby
@@ -57,6 +63,6 @@ Test points:
     1. Unplug the power supply  
 1. Install Q5
 1. Install U2 and U3
-1. Install Y1 by reflow if possible or by hand
+1. Install Y1 by reflow if possible or by hand if you have not already installed it
 1. Test the uC
     1. Connect the USBC cable to a computer
