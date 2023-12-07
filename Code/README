@@ -1,0 +1,4 @@
+Breadboard_WO_INT = Code used on breadboard WITHOUT interrupt functionality. As a by product, the main menu will not appear.
+Breadboard_W_INT = Code used on breadboard WITH interrupt functionality. Full functionality.
+PCB_WO_INT = Code used on PCB WITHOUT interrupt functionality. As a by product, the main menu will not appear.
+PCB_W_INT = Code used on PCB WITH interrupt functionality. Full functionality.
