@@ -49,20 +49,33 @@ Additionally note that not all components on the ibom will be populated.
     1. Confirm that VBUS is 0V
     1. Confirm that 5V net is at 5V
     1. Unplug the power supply
-1. Install U3
-1. Install D5
+1. Install D5. The bar is on the pin 1 side
 1. Test the 5v reg
     1. Connect a USBC power supply capable of 20V
     1. Confirm that VBUS is 20V
-    1. Confirm that 5V is around 4.5V
+    1. Confirm that 5V is roughly 4.7V
     1. Confirm that D4 and D1 are both lit 
-    1. Connect a USBC power supply not capable of 20V (e.g. a USB A-C cable)
-    1. Confirm that D3 is the only LED that is lit
-    1. Confirm that VBUS is 0V
+    1. Connect a USBC port to your computer
+    1. Confirm that D3 and D1 are both lit
+    1. Confirm that VBUS is roughly 0V
     1. Confirm that 5V net is at 5V
     1. Unplug the power supply  
-1. Install Q5
 1. Install U2 and U3
-1. Install Y1 by reflow if possible or by hand if you have not already installed it
+1. Install Y1
+    1. Match the direction of the text to the silkscreen
+    1. Install by reflow if possible or by hand if you have not already installed it
+1. Install Q5
+1. Install all switches
+1. Clean the board
+
+## Step 2 - Burn the bootloader
+1. Aquire an Atmel programmer. This can be a dedicated device, or another Arduino running the ICSP firmware.
+    1. Open the Arduino IDE
+    1. 
+
+
+
 1. Test the uC
     1. Connect the USBC cable to a computer
+    1. Confirm that D1 and D3 are lit
+    1. Confirm that the computer can see the atmega32u4

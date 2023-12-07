@@ -55,24 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|122900000|71605000|3765ce8a-c35d-45d2-ac4d-9bcbfc62d918|09525b8f-afae-48b8-b5de-8ffd95f3d9ab",
-        "hole_clearance|122900000|71605000|3765ce8a-c35d-45d2-ac4d-9bcbfc62d918|7603537a-b52e-4d0e-8b18-5fc0742479cc",
-        "hole_clearance|123100000|71605000|3765ce8a-c35d-45d2-ac4d-9bcbfc62d918|74c2dbc8-887a-4dcb-8db3-9417bf5d98ed",
-        "hole_clearance|123100000|71605000|3765ce8a-c35d-45d2-ac4d-9bcbfc62d918|c8dbca7c-e64a-4011-bcd0-378e9354ea6e",
-        "hole_clearance|128500000|71605000|2f9a5931-46ae-4ff4-bdf7-b041c5044d52|23dbb073-1640-4588-8ee4-283992c3b97e",
-        "hole_clearance|128500000|71605000|2f9a5931-46ae-4ff4-bdf7-b041c5044d52|ff482bbb-407e-4ffc-9a19-efdf878839c5",
-        "hole_clearance|128700000|71605000|2f9a5931-46ae-4ff4-bdf7-b041c5044d52|4e8fd4ab-0c51-43b9-bee6-346ab787b77d",
-        "hole_clearance|128700000|71605000|2f9a5931-46ae-4ff4-bdf7-b041c5044d52|ae794cfe-7bc7-4403-aeff-82dc833c5126",
-        "lib_footprint_mismatch|135275000|83575000|3ee34ac1-c79f-4445-bd21-9f99577f90de|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|140700000|90450000|85fc7000-dd9a-48a2-a4e2-346f9935adc4|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|121330000|64849648|d2c172ad-ac06-4c9f-868e-c1c5fcb4670f|a0a31098-7b53-439f-84ed-f29a8d399b17",
-        "silk_edge_clearance|130270000|64835000|d2c172ad-ac06-4c9f-868e-c1c5fcb4670f|744226b4-2a54-407c-ad0c-92162fe98180",
-        "silk_edge_clearance|130270000|64849648|d2c172ad-ac06-4c9f-868e-c1c5fcb4670f|6c2f095f-71e1-4303-a26e-ea8c9b61b16b",
-        "unconnected_items|121480000|67435000|0ef7fd67-c785-496e-a41b-10b6e5ae795a|323be5e5-7966-4814-a5bc-ff6aee37c15a",
-        "unconnected_items|130120000|67435000|a427fd3a-f97f-47f0-8c38-99af0c9b6e67|0ef7fd67-c785-496e-a41b-10b6e5ae795a",
-        "unconnected_items|130120000|71605000|1d427029-529c-44d9-8b1e-fe5369dea422|a427fd3a-f97f-47f0-8c38-99af0c9b6e67"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

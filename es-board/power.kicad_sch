@@ -1164,7 +1164,6 @@
   (no_connect (at 184.15 82.55) (uuid b200f0ad-e5c9-47a4-a4ad-137860aa3a2b))
   (no_connect (at 184.15 90.17) (uuid e2dcf563-183c-42a6-8d9c-d1b018bcb56b))
   (no_connect (at 48.26 90.17) (uuid e487b1ea-c1c0-4608-9d8e-8075f43fe636))
-  (no_connect (at 214.63 85.09) (uuid e58ec78c-0abf-41c0-a0fd-8db74aecc5be))
 
   (wire (pts (xy 214.63 77.47) (xy 265.43 77.47))
     (stroke (width 0) (type default))
@@ -1797,6 +1796,13 @@
     (uuid d49df67b-1a7d-4b24-a9db-270637467fa8)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 172.6377 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "FLIP" (shape input) (at 214.63 85.09 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e76f294f-0f73-4d6a-90fc-f9f2cb16d199)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 221.6067 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
 
